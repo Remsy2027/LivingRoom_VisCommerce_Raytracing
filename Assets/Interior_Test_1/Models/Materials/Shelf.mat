@@ -18,9 +18,8 @@ Material:
     MotionVector: User
   disabledShaderPasses:
   - TransparentBackface
-  - RayTracingPrepass
-  - TransparentDepthPostpass
   - TransparentDepthPrepass
+  - TransparentDepthPostpass
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -230,7 +229,7 @@ Material:
     - _PPDPrimitiveLength: 1
     - _PPDPrimitiveWidth: 1
     - _Parallax: 0.02
-    - _RayTracing: 0
+    - _RayTracing: 1
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
     - _RefractionModel: 0
@@ -278,7 +277,7 @@ Material:
     - _UseColorMap: 1
     - _UseEmissiveIntensity: 0
     - _UseEmissiveMap: 0
-    - _UseMetallicMap: 0
+    - _UseMetallicMap: 1
     - _UseNormalMap: 1
     - _UseRoughnessMap: 1
     - _UseShadowThreshold: 0

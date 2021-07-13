@@ -35,7 +35,6 @@ Material:
   - TransparentBackface
   - TransparentDepthPostpass
   - TransparentDepthPrepass
-  - RayTracingPrepass
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -207,7 +206,7 @@ Material:
     - _PPDPrimitiveLength: 1
     - _PPDPrimitiveWidth: 1
     - _Parallax: 0.02
-    - _RayTracing: 0
+    - _RayTracing: 1
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
     - _RefractionModel: 0

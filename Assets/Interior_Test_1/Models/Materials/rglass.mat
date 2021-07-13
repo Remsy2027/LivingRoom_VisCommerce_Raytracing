@@ -21,7 +21,6 @@ Material:
   - MOTIONVECTORS
   - TransparentDepthPrepass
   - TransparentBackface
-  - RayTracingPrepass
   - TransparentDepthPostpass
   m_SavedProperties:
     serializedVersion: 3
@@ -186,7 +185,7 @@ Material:
     - _PPDMinSamples: 5
     - _PPDPrimitiveLength: 1
     - _PPDPrimitiveWidth: 1
-    - _RayTracing: 0
+    - _RayTracing: 1
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
     - _RefractionModel: 0
